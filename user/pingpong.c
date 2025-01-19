@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 
     if(fork()!=0) // parent process
     {
-        write(pp2c[1],'.',1);
+        write(pp2c[1],".",1);
         close(pp2c[1]);
 
         char buf;
